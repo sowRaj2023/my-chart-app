@@ -37,7 +37,7 @@ const Chart = ({ data, callback, period }) => {
   return (
     <div className={style.container}>
       <div ref={chartRef} className={style.wrapper}>
-        <ResponsiveContainer width="100%" height={400}>
+        <ResponsiveContainer width="100%" height={600}>
           <LineChart data={data}>
             <CartesianGrid strokeDasharray="2 2" />
             <XAxis dataKey={Object.keys(data[0])[0]} />
