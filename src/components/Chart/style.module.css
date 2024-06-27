@@ -1,0 +1,40 @@
+.container {
+    position: relative;
+}
+
+.wrapper {
+    padding-top: 35px;
+}
+
+.btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    padding: 4px 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    background-color: #fff;
+
+    transition: color 0.25s, background-color 0.25s, border 0.25s;
+}
+
+.btn:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: rgb(14, 6, 6);
+}
+
+.select {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    outline: none;
+    padding: 4px 8px;
+}
